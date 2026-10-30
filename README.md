@@ -64,7 +64,7 @@ History belongs to the anonymous account on the current installation. Cross-devi
 Source syntax parsing, Xcode project property-list validation, and mocked translation-service checks passed during creation. The mocked checks cover request query encoding, response/entity decoding, blank input, UTF-8 limits, and identical languages. Firebase package resolution was blocked by network restrictions; simulator access was blocked by sandbox restrictions. A full build, simulator walkthrough, API integration test, and Firebase integration test have not been verified in this environment. Before submitting:
 
 1. Launch: input and output start empty; history shows an empty state on a new account.
-2. Enter `Hello world`, choose English → Spanish, and tap Translate. Verify Spanish output appears and a Firestore document is saved.
+2. Enter `Hello`, choose English → Spanish, and tap Translate. Verify Spanish output appears and a Firestore document is saved.
 3. Relaunch and verify history remains. Tap an entry to reuse it, copy the result, and try another language pair.
 4. Try blank input, identical languages, and text over 500 UTF-8 bytes. Translation is disabled.
 5. Turn off connectivity and check error feedback. Restore it and retry.
@@ -73,7 +73,7 @@ Source syntax parsing, Xcode project property-list validation, and mocked transl
 
 ## Video Walkthrough
 
-**TODO:** Record the implemented user stories after Firebase setup and add your actual Loom or GIF link here. No walkthrough recording has been fabricated.
+https://www.loom.com/share/ff3d3645c9854f55b820b16c2f7ee97d
 
 ## Notes
 
